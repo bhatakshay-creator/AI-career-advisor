@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables / secrets
+.env
+
+# Large/raw datasets (keep repo lightweight)
+data/raw/
+
+# OS/editor junk
+.DS_Store
+.vscode/*.log
