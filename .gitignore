@@ -1,21 +1,18 @@
-.venv/
-__pycache__/
-.pytest_cache/
-*.pyc
-.DS_Store
 # Virtual environment
 .venv/
 
-# Python cache
+# Python cache / test artifacts
 __pycache__/
+.pytest_cache/
 *.pyc
 
-# Environment variables / secrets
+# Environment / secrets
 .env
 
-# Large/raw datasets (keep repo lightweight)
+# Large raw data
 data/raw/
 
-# OS/editor junk
+# Editor / OS junk
+.vscode/
+*.log
 .DS_Store
-.vscode/*.log
